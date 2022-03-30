@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    background-color: #EDE6DC;
 }
 
 .header{
@@ -16,7 +17,8 @@
     width: 1000px;
     height: 100%;
     display: block;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    background-color: #101010; 
 }
 
 .logo_container{
@@ -26,6 +28,7 @@
 }
 
 .logo_container h1{
+    background-color: #101010;
     color: #FA7682;
     height: 100%;
     display: table-cell;
@@ -40,7 +43,8 @@
 }
 
 .navigation a{
-    height: 100%;
+    background-color: #101010;
+    height: 80px;
     display:table;
     float: left;
     padding: 0px 20px;
@@ -52,6 +56,7 @@
 }
 
 .navigation a li{
+    background-color: #101010;
     display: table-cell;
     vertical-align: middle;
     height: 100%;
@@ -61,5 +66,90 @@
 }
 
 .hero_section{
+    height: 650px;
+    width: 100%;
+    display: table;
+    margin: 113px;
     background-color: #EDE6DC;
+}
+
+.hero_text .hero_image{
+    display: inline-block;
+    align-items: center;
+}
+
+.hero_image img{
+    height: 100%;
+    display: inline-block;
+    vertical-align: right;
+    padding-left: 932px;
+}
+
+.hero_text{
+    height: 100%;
+    width: 722px;
+    display: inline-block;
+    vertical-align: left;
+}
+
+.hero_text h1{
+    color: #101010;
+    height: 100%;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    text-align: left;
+}
+
+.hero_text p{
+    height: 100%;
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 42px;
+}
+
+.hero_text button{
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.footer{
+    height: 658px;
+    width: 958px;
+    margin: 251px;
+    vertical-align: middle;
+    background-color: #EDE6DC;
+}
+
+.footer img{
+    height: 250px;
+    display: block;
+    align-items: center;
+    padding-left: 362px;
+    padding-right: 362px;
+}
+
+.footer h1{
+    color: #101010;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 302px;
+    padding-right: 302px;
+}
+
+.footer p{
+    height: 100%;
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 113px;
+    padding-right: 113px;
+    padding-top: 80px;
 }
