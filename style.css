@@ -78,11 +78,17 @@
     align-items: center;
 }
 
-.hero_image img{
-    height: 100%;
-    display: inline-block;
+ .picture img{
+    float: right;
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-left: 600px;
+ }
+    /* height: 100%;
+    float: right;
     vertical-align: right;
     padding-left: 932px;
+     */
 }
 
 .hero_text{
@@ -90,17 +96,19 @@
     width: 722px;
     display: inline-block;
     vertical-align: left;
+    padding-top: 65px;
 }
 
-.hero_text h1{
+.heroImg h1{
     color: #101010;
     height: 100%;
     font-family: 'Abril Fatface', cursive;
     font-size: 80px;
     text-align: left;
+    padding-top: 65px;
 }
 
-.hero_text p{
+.heroImg p{
     height: 100%;
     color: #101010;
     font-family: 'Poppins', sans-serif;
